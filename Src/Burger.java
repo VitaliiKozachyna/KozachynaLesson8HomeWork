@@ -12,11 +12,11 @@ public class Burger {
         this.mayonnaise = mayonnaise;
         if(!doubleMeat) {
             this.meat = "М'ясо";
-            System.out.printf("Звичайний бургер.\t\t\t Склад: %s, %s, %s, %s, %s, %n",
+            System.out.printf("Звичайний бургер.\t\t\t Склад: %s, %s, %s, %s, %s%n",
                     this.bun, this.meat, this.cheese, this.salad, this.mayonnaise);
         } else {
             this.meat = "Подвійне м'ясо";
-            System.out.printf("Бургер з подвійним м'ясом.\t Склад: %s, %s, %s, %s, %s, %n",
+            System.out.printf("Бургер з подвійним м'ясом.\t Склад: %s, %s, %s, %s, %s%n",
                     this.bun, this.meat, this.cheese, this.salad, this.mayonnaise);
         }
     }
@@ -26,7 +26,7 @@ public class Burger {
         this.meat = meat;
         this.cheese = cheese;
         this.salad = salad;
-        System.out.printf("Дієтичний бургер.\t\t\t Склад: %s, %s, %s, %s, %n",
+        System.out.printf("Дієтичний бургер.\t\t\t Склад: %s, %s, %s, %s%n",
                 this.bun, this.meat, this.cheese, this.salad);
     }
 
